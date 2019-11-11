@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    
+}
+a:visited {
+    text-decoration: none;
+}
+
+.car-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.me-car--container {
+    display: flex;
+}
+
+.me-car-me {
+    flex:1;
+    text-align: right;
+    align-self: flex-end;
+
+}
+
+.me-car-car {
+    flex:1;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.cloud-container {
+    text-align: center;
+    position: relative;
+    color: darkslategray;
+}
+
+.centered-cloud--text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,28 @@
+{
+  "name": "lambosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./ClientApp/index.html",
+    "build": "parcel build ./ClientApp/index.html --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.0.0",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.11.0",
+    "react-sound": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10",
+    "sass": "^1.23.3"
+  }
+}
